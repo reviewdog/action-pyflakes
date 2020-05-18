@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: pyflakes
-        uses: kazukazuinaina/action-pyflakes@master
+        uses: reviewdog/action-pyflakes@master
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-check # Change reporter.
