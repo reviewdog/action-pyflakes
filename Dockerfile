@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 
-ENV REVIEWDOG_VERSION=v0.12.0
+ENV REVIEWDOG_VERSION=v0.13.0
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
