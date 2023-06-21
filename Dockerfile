@@ -17,7 +17,7 @@ RUN pip3 install --upgrade pip && \
     rm -r /root/.cache
 
 # TODO: Install a linter and/or change docker image as you need.
-RUN wget -O - -q https://git.io/misspell | sh -s -- -b /usr/local/bin/
+RUN wget -O - -q https://raw.githubusercontent.com/client9/misspell/master/install-misspell.sh | sh -s -- -b /usr/local/bin/
 
 COPY entrypoint.sh /entrypoint.sh
 
