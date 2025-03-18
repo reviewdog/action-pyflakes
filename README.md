@@ -44,7 +44,7 @@ jobs:
     name: runner / pyflakes
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: pyflakes
         uses: reviewdog/action-pyflakes@master
         with:
